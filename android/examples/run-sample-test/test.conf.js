@@ -8,6 +8,7 @@ exports.config = {
     [
       'browserstack',
       {
+        app: 'bs://f7a86d330b4a215b11032c7708aa841409597c9e',
         buildIdentifier: '${BUILD_NUMBER}',
         browserstackLocal: true,
         opts: { forcelocal: false, localIdentifier: "webdriverio-appium-app-browserstack-repo" },
