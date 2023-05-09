@@ -1,6 +1,6 @@
 exports.config = {
-  user: process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
+  user: process.env.BROWSERSTACK_USERNAME || 'kayoteam_BcNWk2',
+  key: process.env.BROWSERSTACK_ACCESS_KEY || 'vznvpr7FZNT4UWBsCMo5',
 
   hostname: 'hub.browserstack.com',
 
@@ -18,13 +18,20 @@ exports.config = {
 
   capabilities: [{
     'bstack:options': {
-      deviceName: 'Google Pixel 3',
-      osVersion: "9.0"
+      deviceName: 'Samsung Galaxy S22 Ultra',
+      platformVersion: '12.0',
+      platformName: 'android',
     }
   }, {
     'bstack:options': {
-      deviceName: 'Samsung Galaxy S10e',
-      osVersion: "9.0"
+      deviceName: 'Google Pixel 7 Pro',
+      platformVersion: '13.0',
+      platformName: 'android',
+    }, 
+    'bstack:options': {
+      deviceName: 'OnePlus 9',
+      platformVersion: '11.0',
+      platformName: 'android',
     }
   }],
 
